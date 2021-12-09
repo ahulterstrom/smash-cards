@@ -3,6 +3,7 @@ import { CardData } from "../types/CardData";
 export const cardData: CardData[] = [
   {
     cardType: "Instant",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
@@ -10,25 +11,29 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Counter",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
       "Negate the effects of your opponents card. Continue with this game (even if that means no ruleset variation will be applied).",
   },
   {
-    cardType: "Ability",
+    cardType: "Instant",
+    cardCount: 4,
     useCount: "Unlimited",
     rarity: "common",
     cardEffect: "You may choose the stage music before any game.",
   },
   {
-    cardType: "Ability",
+    cardType: "Instant",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect: "Open a gift",
   },
   {
     cardType: "Counter",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
@@ -36,6 +41,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
@@ -43,183 +49,212 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Both players must play characters who were newcomers in Ultimate",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Both players must play characters who were newcomers in Smash 4",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who were newcomers in Brawl",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who were newcomers in Melee",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 2,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who were in Smash 64",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who are from Pokemon",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Both players must play characters who are from Legend of Zelda",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who are Fire Emblem",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Both players must play characters who's symbol is the same symbol as Mario",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Both players must play characters who have a gun (of any kind)",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who are not human",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who are human",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who are short",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect: "Both players must play characters who have a sword",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Both players must play characters who are not owned by Nintendo",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Both players must play characters who are heavy (heavier than 110: Bowser, K. Rool, DK, Ganondorf, Charizard, Incineroar, Kazuya, Plant)",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Both players must play characters who are light (lighter than 80: Sephiroth, Kirby, Pikachu, Olimar, Mewtwo, Sheik, Fox, Game & Watch, Squirtle, Jigglypuff, Pichu)",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "The stage for the next game will be Pokemon Stadium 2, unless the previous game was played on Pokemon Stadium 2, in which case the next game will be played on Great Cave Offensive",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Smashville",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Town & City",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Hollow Bastion",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Kalos Pokemon League",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Lylat Cruise",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Battlefield",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Small Battlefield",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Final Destination",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Northern Cave",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Yoshi's Story",
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -227,41 +262,47 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "The next game will be played on Squad Strike 3v3 (Limited to one fighter from each pair of echo fighters)",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "The next game will be played on Squad Strike 5v5 (Limited to one fighter from each pair of echo fighters)",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "The next game will be played on Squad Strike 3v3 with all fighters set to random.",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "The next game will be played on Squad Strike 5v5 with all fighters set to random.",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "The next game will be a 2v2 doubles game. Grab any doubles partner from among the bystanders. (Any player may not use the same doubles partner for more than 1 game during the tournament) (team attack on)",
   },
   {
     cardType: "Counter",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
@@ -269,6 +310,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Counter",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
@@ -276,6 +318,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -283,6 +326,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -290,6 +334,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -297,6 +342,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -304,6 +350,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -311,6 +358,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -318,6 +366,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -325,6 +374,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -332,6 +382,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -339,6 +390,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -346,6 +398,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -353,6 +406,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -360,6 +414,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -367,6 +422,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -374,6 +430,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -381,6 +438,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -388,41 +446,47 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
       "Both players must un-map the 'A' or attack button from their control scheme. (Also remove 'tilt-stick' and 'smash-stick')",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
       "Both players must un-map the 'B' or special button from their control scheme. (May not use 'special-stick')",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
       "Both players must un-map the jump button from their control scheme. (May not use 'tap-jump')",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
       "Both players must un-map the shield and jump buttons from their control scheme. (May not use 'tap-jump')",
   },
   {
     cardType: "Ruleset",
-    useCount: "Unlimited",
+    cardCount: 1,
+    useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
       "Both players must turn around so that they may not see the screen whatsoever. Each player must recruit a coach from among the bystanders to instruct them during the game. If either player turns around to look at the screen before the game is over, that player automatically loses the game.",
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
@@ -430,6 +494,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -437,6 +502,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -444,6 +510,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -451,6 +518,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -458,6 +526,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -465,6 +534,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -472,6 +542,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -479,6 +550,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -486,6 +558,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -493,6 +566,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -500,6 +574,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -507,6 +582,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -514,6 +590,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -521,6 +598,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -528,6 +606,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -535,6 +614,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -542,6 +622,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -549,6 +630,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -556,6 +638,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -563,6 +646,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -570,6 +654,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -577,6 +662,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -584,6 +670,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -591,6 +678,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -598,6 +686,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -605,6 +694,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
@@ -612,6 +702,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
+    cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:

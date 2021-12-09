@@ -27,6 +27,7 @@ const Card: FC<Props> = ({ cardData }) => {
     flavorText,
     imageSource,
   } = cardData;
+
   return (
     <Box w="2.5in" h="3.5in" rounded={8} backgroundColor="black" pos="relative">
       <Box pos="absolute" h="90%" w="100%" overflow="clip" p={3} zIndex={4}>
