@@ -1,0 +1,19 @@
+version: 0.1.0
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - rm -rf node_modules
+        - rm -rf .next
+        - rm -rf out
+        - yarn install --frozen-lockfile
+    build:
+      commands:
+        - yarn build
+  artifacts:
+    baseDirectory: out
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
