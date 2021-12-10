@@ -79,7 +79,7 @@ export const cardData: CardData[] = [
   {
     cardType: "Instant",
     cardCount: 4,
-    useCount: "Unlimited",
+    useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "Select one row from the character select screen. For the next game, your opponent may not select a character from that row.",
