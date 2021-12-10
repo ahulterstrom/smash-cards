@@ -18,11 +18,71 @@ export const cardData: CardData[] = [
       "Negate the effects of your opponents card. Continue with this game (even if that means no ruleset variation will be applied).",
   },
   {
+    cardName: "Final Destination",
+    cardType: "Counter",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "Change the current stage selection to the Omega variant of the same stage.",
+  },
+  {
+    cardName: "Small Battlefield",
+    cardType: "Counter",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "Change the current stage selection to the Small Battlefield variant of the same stage.",
+  },
+  {
+    cardName: "A New Battlefield",
+    cardType: "Counter",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "Change the current stage selection to the Battlefield variant of the same stage.",
+  },
+  {
+    cardName: "No, Thanks",
+    cardType: "Counter",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "For the next game, the player who played this card may select any fighter.",
+  },
+  {
+    cardName: "Get Rekt",
+    cardType: "Counter",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "busted",
+    cardEffect:
+      "For the next game, the player who played this card may select their opponent's fighter.",
+  },
+  {
     cardType: "Instant",
     cardCount: 4,
     useCount: "Unlimited",
     rarity: "common",
     cardEffect: "You may choose the stage music before any game.",
+  },
+  {
+    cardType: "Instant",
+    cardCount: 4,
+    useCount: "Unlimited",
+    rarity: "common",
+    cardEffect: "You may choose your opponents skin option.",
+  },
+  {
+    cardType: "Instant",
+    cardCount: 4,
+    useCount: "Unlimited",
+    rarity: "uncommon",
+    cardEffect:
+      "Select one row from the character select screen. For the next game, your opponent may not select a character from that row.",
   },
   {
     cardType: "Instant",
@@ -198,7 +258,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
-    cardCount: 1,
+    cardCount: 2,
     useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Hollow Bastion",
@@ -240,7 +300,7 @@ export const cardData: CardData[] = [
   },
   {
     cardType: "Ruleset",
-    cardCount: 1,
+    cardCount: 2,
     useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Northern Cave",
@@ -251,6 +311,111 @@ export const cardData: CardData[] = [
     useCount: "Single-Use",
     rarity: "common",
     cardEffect: "The stage for the next game will be Yoshi's Story",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Big Battlefield",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be New Donk City Hall",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Great Plateau Tower",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Moray Towers",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Dracula's Castle",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Mementos",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Big Battlefield",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Yggdrasil's Altar",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Spiral Mountain",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be King of Fighters Stadium",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Garreg Mach Monastery",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Spring Stadium",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Minecraft World",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Cloud Sea of Alrest",
+  },
+  {
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "common",
+    cardEffect: "The stage for the next game will be Mishima Dojo",
   },
   {
     cardType: "Ruleset",
@@ -317,6 +482,7 @@ export const cardData: CardData[] = [
       "This card must be played before a game starts. Negate the effects of your opponents card. This game will instead be decided by a best of 3 homerun contest.",
   },
   {
+    cardName: "Mega",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -325,6 +491,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with size set to 'Mega'",
   },
   {
+    cardName: "Mini",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -333,6 +500,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with size set to 'Mini'",
   },
   {
+    cardName: "Flower",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -341,6 +509,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with head set to 'Flower'",
   },
   {
+    cardName: "Bunny",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -349,6 +518,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with head set to 'Bunny'",
   },
   {
+    cardName: "Metal",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -357,6 +527,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with body set to 'Metal'",
   },
   {
+    cardName: "Clear",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -365,6 +536,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with body set to 'Clear'",
   },
   {
+    cardName: "Tail",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -373,6 +545,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with body set to 'Tail'",
   },
   {
+    cardName: "Rocket Belt",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -381,6 +554,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with body set to 'Rocket Belt'",
   },
   {
+    cardName: "Screw Attack",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -389,6 +563,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with body set to 'Screw Attack'",
   },
   {
+    cardName: "Back Shield",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -397,6 +572,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with body set to 'Back Shield'",
   },
   {
+    cardName: "Curry",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -405,6 +581,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with status set to 'Curry'",
   },
   {
+    cardName: "Reflect",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -413,6 +590,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with status set to 'Reflect'",
   },
   {
+    cardName: "Light",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -421,6 +599,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with weight set to 'Light'",
   },
   {
+    cardName: "Heavy",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -429,6 +608,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with body set to 'Heavy'",
   },
   {
+    cardName: "Slow",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -445,6 +625,7 @@ export const cardData: CardData[] = [
       "The next game will be played on special smash with speed set to 'Fast'",
   },
   {
+    cardName: "Pacifism",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -453,6 +634,7 @@ export const cardData: CardData[] = [
       "Both players must un-map the 'A' or attack button from their control scheme. (Also remove 'tilt-stick' and 'smash-stick')",
   },
   {
+    cardName: "Everyone Is Special",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -461,6 +643,7 @@ export const cardData: CardData[] = [
       "Both players must un-map the 'B' or special button from their control scheme. (May not use 'special-stick')",
   },
   {
+    cardName: "No Jumping",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -469,22 +652,25 @@ export const cardData: CardData[] = [
       "Both players must un-map the jump button from their control scheme. (May not use 'tap-jump')",
   },
   {
+    cardName: "The Shields Are Down",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
-      "Both players must un-map the shield and jump buttons from their control scheme. (May not use 'tap-jump')",
+      "Both players must un-map the shield and grab buttons from their control scheme.",
   },
   {
+    cardName: "Super Blind Bros",
     cardType: "Ruleset",
-    cardCount: 1,
+    cardCount: 2,
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
       "Both players must turn around so that they may not see the screen whatsoever. Each player must recruit a coach from among the bystanders to instruct them during the game. If either player turns around to look at the screen before the game is over, that player automatically loses the game.",
   },
   {
+    cardName: "Judgement",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -493,6 +679,7 @@ export const cardData: CardData[] = [
       "Both players much be Game & Watch, and must take turns hitting each other with side-b",
   },
   {
+    cardName: "Bug Catcher Joey",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -501,6 +688,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to high with only pokeballs turned on, must be a pokemon stage, 6 stocks",
   },
   {
+    cardName: "Duplication Glitch",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -509,6 +697,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to high with only masterballs turned on, must be a pokemon stage, 6 stocks",
   },
   {
+    cardName: "Do Ya Wanna Be a Master?",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -533,6 +722,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to medium with only smash orbs turned on",
   },
   {
+    cardName: "FINAL SMASH",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -541,6 +731,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to high with only smash orbs turned on",
   },
   {
+    cardName: "Small Assistant",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -549,6 +740,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to low with only assist trophies turned on",
   },
   {
+    cardName: "Assistant",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -557,6 +749,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to medium with only assist trophies turned on",
   },
   {
+    cardName: "EXECUTIVE Assistant",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -565,6 +758,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to high with only assist trophies turned on",
   },
   {
+    cardName: "Tiny Bang",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -573,6 +767,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to low with only bomb items turned on",
   },
   {
+    cardName: "Bang",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -581,6 +776,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to medium with only bomb items turned on",
   },
   {
+    cardName: "Big Bang",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -605,6 +801,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to medium with all items turned on",
   },
   {
+    cardName: "Learn To Love",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -613,6 +810,7 @@ export const cardData: CardData[] = [
       "The next game will be played with items set to high with all items turned on",
   },
   {
+    cardName: "Teamwork is Dream Work",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
@@ -701,11 +899,93 @@ export const cardData: CardData[] = [
       "The next game will be a 3v3 triple battle. The teammates will be lvl 9 cpus set to random. (team attack on)",
   },
   {
+    cardName: "Four Your Own Good",
     cardType: "Ruleset",
     cardCount: 1,
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
       "The next game will be a 4v4 quadruple battle. The teammates will be lvl 9 cpus set to random. (team attack on)",
+  },
+  {
+    cardName: "Food Fight!",
+    cardType: "Ruleset",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "The next game will be: 150hp Stamina, 1 Stock, Unlimited Time, Items on High, Only food items allowed",
+  },
+  {
+    cardName: "Do You Play Daisy?",
+    cardType: "Ruleset",
+    cardCount: 4,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "For the next game, each fighter will select the other player's fighter.",
+  },
+  {
+    cardName: "Slay The Dragon",
+    cardType: "Ruleset",
+    cardCount: 1,
+    useCount: "Single-Use",
+    rarity: "busted",
+    cardEffect:
+      "For the next game, choose stamina battle with 1 stock, handicap on. You play as Charizard with 300hp, your opponent must select a swordsman with 150hp.",
+  },
+  {
+    cardName: "Splat!",
+    cardType: "Ruleset",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "The next game will be: 10hp Stamina, 99 Stock, Moray Towers stage, all fighters Inkling, 4v4 with cpu teammates",
+  },
+  {
+    cardName: "Is Smash a Fighting Game?",
+    cardType: "Ruleset",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "The next game will be decided by the winner of: 200hp Stamina, Final Smash Meter: on, first to 2 wins, King of Fighters Stadium, 0.5x launch rate",
+  },
+  {
+    cardName: "Batter Up",
+    cardType: "Ruleset",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "The next game will be: items on high, all items off except baseball bat and beast ball. Both players must play as Villager or Isabelle.",
+  },
+  {
+    cardName: "We Have The High Ground",
+    cardType: "Ruleset",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "The next game will be: both players on the same team, team attack: off, a lvl 1 Little Mac CPU is on the opposing team, the winner is the player who KOs Little Mac the greatest number of times on the victory screen.",
+  },
+  {
+    cardName: "Proxy Battle",
+    cardType: "Ruleset",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "Each player is replaced by a lvl 9 CPU. Each play may choose their representative CPU's fighter.",
+  },
+  {
+    cardName: "Survival",
+    cardType: "Ruleset",
+    cardCount: 2,
+    useCount: "Single-Use",
+    rarity: "uncommon",
+    cardEffect:
+      "Both players are on the same team. Set team attack to off. The opposing team is 6 lvl 9 CPUs set to random fighters. The player who survives longest wins.",
   },
 ];
