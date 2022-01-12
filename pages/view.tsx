@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
+import ViewPage from "../components/pages/ViewPage";
 
-const Home: NextPage = () => {
+const View: NextPage = () => {
   return (
     <div>
       <Head>
@@ -12,11 +12,10 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Link href={"/suggestions"}>Suggestions</Link>
-        <a href={"/view"}>View</a>
+        <ViewPage />
       </main>
     </div>
   );
 };
 
-export default Home;
+export default View;

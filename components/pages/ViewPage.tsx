@@ -1,11 +1,11 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import { cardData } from "../lib/cardData";
-import Card from "./Card";
-import { CardData } from "../types/CardData";
-import { getCardImage } from "../lib/cardFunctions";
+import { cardData } from "../../lib/cardData";
+import Card from "../Card";
+import { CardData } from "../../types/CardData";
+import { getCardImage } from "../../lib/cardFunctions";
 
-const HomePage = () => {
+const ViewPage = () => {
   const counts = {
     cardType: {
       Instant: 0,
@@ -54,4 +54,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default ViewPage;

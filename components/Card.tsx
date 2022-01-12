@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Box, Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, HStack, Image, Text } from "@chakra-ui/react";
 import { CardData } from "../types/CardData";
 import {
   getBackgroundSource,
@@ -10,7 +10,6 @@ import {
   getFontSize,
   getRandomCardImage,
   getRarityInitial,
-  getTextFromCardType,
 } from "../lib/cardFunctions";
 
 interface Props {
