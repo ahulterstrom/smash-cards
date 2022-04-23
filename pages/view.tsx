@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import ViewPage from "../components/pages/ViewPage";
+import { getAllCards } from "../services";
 
-const View: NextPage = () => {
+// @ts-ignore
+const View: NextPage = ({ cards }) => {
   return (
     <div>
       <Head>
@@ -12,10 +14,18 @@ const View: NextPage = () => {
       </Head>
 
       <main>
-        <ViewPage />
+        <ViewPage cards={cards} />
       </main>
     </div>
   );
 };
+
+export async function getStaticProps() {
+  const allCards = await getAllCards();
+
+  return {
+    props: { cards: allCards }, // will be passed to the page component as props
+  };
+}
 
 export default View;

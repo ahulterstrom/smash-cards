@@ -24,7 +24,7 @@ const Card: FC<Props> = ({ cardData }) => {
     rarity,
     cardEffect,
     flavorText,
-    imageSource,
+    imageUrl,
   } = cardData;
 
   return (
@@ -60,8 +60,8 @@ const Card: FC<Props> = ({ cardData }) => {
             <Image
               h="110px"
               w="100%"
-              src={getCardImage(imageSource)}
-              fallbackSrc={getRandomCardImage()}
+              src={getCardImage(imageUrl)}
+              // fallbackSrc={getRandomCardImage()}
               fit="cover"
             />
           </Box>
@@ -94,7 +94,7 @@ const Card: FC<Props> = ({ cardData }) => {
               p={1}
               opacity={0.7}
               filter={"contrast(50%) brightness(1.7) "}
-              backgroundImage={"./wmarble.jpg"}
+              backgroundImage={"wmarble.jpg"}
               backgroundSize={"100px"}
               zIndex={3}
             />

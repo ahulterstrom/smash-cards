@@ -1,4 +1,5 @@
 export interface CardData {
+  id: string;
   cardName?: string;
   cardType: "Ruleset" | "Counter" | "Instant";
   cardCount: number;
@@ -6,5 +7,5 @@ export interface CardData {
   rarity: "common" | "uncommon" | "busted";
   cardEffect: string;
   flavorText?: string;
-  imageSource?: string;
+  imageUrl?: string;
 }

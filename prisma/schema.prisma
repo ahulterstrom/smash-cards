@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Card {
+  id         String @id @default(auto()) @map("_id") @db.ObjectId
+  cardName   String?
+  cardCount  Int
+  cardEffect String
+  cardType   String
+  rarity     String
+  useCount   String
+  imageUrl   String?
+}

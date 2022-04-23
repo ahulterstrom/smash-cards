@@ -1,11 +1,13 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import { cardData } from "../../lib/cardData";
 import Card from "../Card";
+import { useRouter } from "next/router";
 import { CardData } from "../../types/CardData";
-import { getCardImage } from "../../lib/cardFunctions";
 
-const ViewPage = () => {
+// @ts-ignore
+const ViewPage = ({ cards }) => {
+  const router = useRouter();
+
   const counts = {
     cardType: {
       Instant: 0,
@@ -18,33 +20,37 @@ const ViewPage = () => {
     },
   };
 
-  const createAdjustedCardData = (cardData: CardData[]) => {
-    const newArray = [];
-    for (const card of cardData) {
-      card.imageSource = getCardImage(card.imageSource);
-      for (let i = 0; i < card.cardCount; i++) {
-        newArray.push(card);
-        counts.cardType[card.cardType]++;
-        counts.useCount[card.useCount]++;
-      }
-    }
-    return newArray;
-  };
+  // const createAdjustedCardData = (cardData: CardData[]) => {
+  //   const newArray = [];
+  //   for (const cards of cardData) {
+  //     cards.imageSource = getCardImage(cards.imageSource);
+  //     for (let i = 0; i < cards.cardCount; i++) {
+  //       newArray.push(cards);
+  //       counts.cardType[cards.cardType]++;
+  //       counts.useCount[cards.useCount]++;
+  //     }
+  //   }
+  //   return newArray;
+  // };
+  //
+  // const adjustedCardData = createAdjustedCardData(cardData);
 
-  const adjustedCardData = createAdjustedCardData(cardData);
+  const adjustedCardData = cards;
 
-  console.log("number of unique cards", cardData.length);
   console.log("number of cards", adjustedCardData.length);
   console.log("Card Types", counts.cardType);
   console.log("Card Use Counts", counts.useCount);
 
+  // @ts-ignore
   return (
     <Box>
-      {adjustedCardData.map((cardData, key) => (
+      {adjustedCardData.map((cardData: CardData) => (
         <Box
-          key={key}
-          p={2}
-          border={"1px dashed black"}
+          backgroundColor={"black"}
+          key={cardData.id}
+          onClick={() => router.push(`/cards/${cardData.id}`)}
+          // p={2}
+          // border={"1px dashed black"}
           display={"inline-block"}
         >
           <Card cardData={cardData} />

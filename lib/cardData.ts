@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { CardData } from "../types/CardData";
 
 export const cardData: CardData[] = [
@@ -7,7 +8,7 @@ export const cardData: CardData[] = [
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
-      "If you and your opponent have the same stock count, you may pause the game to play this card. Swap controllers with your opponent. When both players are ready to continue, you may resume the game.",
+      "If you and your opponent have the same stock count, you may pause the game to play this cards. Swap controllers with your opponent. When both players are ready to continue, you may resume the game.",
   },
   {
     cardType: "Counter",
@@ -15,7 +16,7 @@ export const cardData: CardData[] = [
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
-      "Negate the effects of your opponents card. Continue with this game (even if that means no ruleset variation will be applied).",
+      "Negate the effects of your opponents cards. Continue with this game (even if that means no ruleset variation will be applied).",
   },
   {
     cardName: "Final Destination",
@@ -51,7 +52,7 @@ export const cardData: CardData[] = [
     useCount: "Single-Use",
     rarity: "uncommon",
     cardEffect:
-      "For the next game, the player who played this card may select any fighter.",
+      "For the next game, the player who played this cards may select any fighter.",
   },
   {
     cardName: "Get Rekt",
@@ -60,7 +61,7 @@ export const cardData: CardData[] = [
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
-      "For the next game, the player who played this card may select their opponent's fighter.",
+      "For the next game, the player who played this cards may select their opponent's fighter.",
   },
   {
     cardType: "Instant",
@@ -97,7 +98,7 @@ export const cardData: CardData[] = [
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
-      "You opponent's card will take effect, but any decisions your opponent may make as a result of their card (including character selections) will instead be made by the player who played this card.",
+      "You opponent's cards will take effect, but any decisions your opponent may make as a result of their cards (including character selections) will instead be made by the player who played this cards.",
   },
   {
     cardType: "Ruleset",
@@ -471,7 +472,7 @@ export const cardData: CardData[] = [
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
-      "This card must be played before a game starts. Negate the effects of your opponents card. This game will instead be a 3v3 triple battle. Grab teammates from among the bystanders. (team attack on)",
+      "This cards must be played before a game starts. Negate the effects of your opponents cards. This game will instead be a 3v3 triple battle. Grab teammates from among the bystanders. (team attack on)",
   },
   {
     cardType: "Counter",
@@ -479,7 +480,7 @@ export const cardData: CardData[] = [
     useCount: "Single-Use",
     rarity: "busted",
     cardEffect:
-      "This card must be played before a game starts. Negate the effects of your opponents card. This game will instead be decided by a best of 3 homerun contest.",
+      "This cards must be played before a game starts. Negate the effects of your opponents cards. This game will instead be decided by a best of 3 homerun contest.",
   },
   {
     cardName: "Mega",

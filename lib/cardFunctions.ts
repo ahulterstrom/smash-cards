@@ -8,11 +8,11 @@ export const getCardName = (cardName: string | undefined) => {
 export const getBackgroundSource = (rarity: string) => {
   switch (rarity) {
     case "common":
-      return "./bmarble.jpg";
+      return "bmarble.jpg";
     case "uncommon":
-      return "./marble.jpg";
+      return "marble.jpg";
     case "busted":
-      return "./gold.jpg";
+      return "gold.jpg";
   }
 };
 
@@ -67,13 +67,13 @@ export const getFontSize = (cardText: string) => {
 export const getTextFromCardType = (cardType: string) => {
   switch (cardType) {
     case "Counter":
-      return "Any time your opponent plays a card you may play this card. ";
+      return "Any time your opponent plays a cards you may play this card. ";
   }
   return "";
 };
 
 export const getRandomCardImage = () => {
-  switch (Math.floor(Math.random() * 100)) {
+  switch (Math.floor(Math.random() * 99)) {
     case 0:
       return "https://pbs.twimg.com/media/EuW4gesVEAALEwY?format=jpg&name=large";
     case 1:
@@ -142,8 +142,6 @@ export const getRandomCardImage = () => {
       return "https://cdn1.dotesports.com/wp-content/uploads/2021/03/21202057/EsAnnXJW8AUnJVb.jpg";
     case 33:
       return "https://static.invenglobal.com/upload/image/2021/08/29/i1630263864941937.jpeg";
-    case 34:
-      return "https://www.destructoid.com/wp-content/uploads/2020/12/576990-SA0-1536x864.jpg";
     case 35:
       return "https://pbs.twimg.com/media/FCdhX_nUcAMO_u9?format=jpg&name=large";
     case 36:
