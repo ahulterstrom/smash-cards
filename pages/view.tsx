@@ -24,7 +24,8 @@ export async function getStaticProps() {
   const allCards = await getAllCards();
 
   return {
-    props: { cards: allCards }, // will be passed to the page component as props
+    props: { cards: allCards }, // will be passed to the page component as props,
+    revalidate: true,
   };
 }
 

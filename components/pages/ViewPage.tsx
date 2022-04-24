@@ -37,9 +37,9 @@ const ViewPage = ({ cards }) => {
 
   const adjustedCardData = cards;
 
-  console.log("number of cards", adjustedCardData.length);
-  console.log("Card Types", counts.cardType);
-  console.log("Card Use Counts", counts.useCount);
+  // console.log("number of cards", adjustedCardData.length);
+  // console.log("Card Types", counts.cardType);
+  // console.log("Card Use Counts", counts.useCount);
 
   // @ts-ignore
   return (

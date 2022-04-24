@@ -117,7 +117,7 @@ const Card: FC<Props> = ({ cardData }) => {
                 <Text>{`AIW ◦ EN ◍`}</Text>
               </Box>
               <Box>
-                <Text>™ & © 2021 All I Want For Christmas</Text>
+                <Text>™ & © 2021 Smash The Gathering</Text>
               </Box>
             </HStack>
           </Box>

@@ -5,7 +5,7 @@ import CardPage from "../../components/pages/CardPage";
 
 // @ts-ignore
 const Card: NextPage = ({ card }) => {
-  console.log("card", card);
+  // console.log("card", card);
   return (
     <div>
       <Head>
@@ -36,15 +36,16 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const allCards = await getAllCards();
 
-  console.log("params", params);
+  // console.log("params", params);
 
   // @ts-ignore
   const card = await getCardById(params.id);
 
-  console.log("card", card);
+  // console.log("card", card);
 
   return {
     props: { card: card }, // will be passed to the page component as props
+    revalidate: true,
   };
 };
 

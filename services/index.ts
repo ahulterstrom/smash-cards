@@ -53,13 +53,13 @@ export async function getCardById(id) {
 async function doQueryUpdate(card) {
   await prisma.$connect();
 
-  console.log("card in update", card);
+  // console.log("card in update", card);
 
   const result = await prisma.card.update({
     where: { id: card.id },
     data: {
       cardName: card.cardName,
-      cardCount: card.cardCount,
+      cardCount: parseInt(card.cardCount),
       cardEffect: card.cardEffect,
       cardType: card.cardType,
       rarity: card.rarity,

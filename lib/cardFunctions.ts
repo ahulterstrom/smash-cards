@@ -73,7 +73,7 @@ export const getTextFromCardType = (cardType: string) => {
 };
 
 export const getRandomCardImage = () => {
-  switch (Math.floor(Math.random() * 99)) {
+  switch (Math.floor(Math.random() * 98)) {
     case 0:
       return "https://pbs.twimg.com/media/EuW4gesVEAALEwY?format=jpg&name=large";
     case 1:
